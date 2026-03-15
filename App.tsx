@@ -4,7 +4,7 @@ import { OverviewPage } from './components/OverviewPage';
 import { ToolsPage } from './components/ToolsPage';
 import { NewsPage } from './components/NewsPage';
 import { AboutPage } from './components/AboutPage';
-import { fetchDashboardData } from './services/geminiService';
+import { fetchDashboardData } from './services/privacyDataService';
 import { DashboardData, Page } from './types';
 
 const App: React.FC = () => {
