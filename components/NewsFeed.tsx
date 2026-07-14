@@ -12,7 +12,7 @@ export const NewsFeed: React.FC<NewsFeedProps> = ({ news, loading }) => {
     <div className="flex flex-col h-full animate-slide-up" style={{ animationDelay: '0.1s' }}>
       <div className="flex items-center justify-between mb-6">
         <h3 className="text-2xl font-bold text-white tracking-tight">Intelligence</h3>
-        <span className="text-xs text-neutral-400">Real-time Updates</span>
+        <span className="text-xs text-neutral-400">Curated Briefs</span>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 h-full">
